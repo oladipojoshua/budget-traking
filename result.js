@@ -1,3 +1,8 @@
+// Function to navigate back to the index page
+function goToIndex() {
+    window.location.href = "index.html";
+}
+
 // Function to display expense details
 function displayExpenseDetails() {
     var expenses = JSON.parse(localStorage.getItem("expenses")) || [];
